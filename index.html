@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Malak Shah Fahad — Full-Stack & Mobile Engineer</title>
+    
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Portfolio of Malak Shah Fahad — Full-Stack Web, WordPress, and React Native Developer. CEO of PrimeStack Agency." />
+    <meta name="author" content="Malak Shah Fahad" />
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Malak Shah Fahad — Full-Stack & Mobile Engineer" />
+    <meta property="og:description" content="Portfolio and selected work of Malak Shah Fahad, CEO of PrimeStack Agency." />
+    <meta property="og:image" content="/og-image.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Google Fonts: Space Grotesk, Inter, JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Anti-flash inline script for dark/light theme (default: light) -->
+    <script>
+      (function() {
+        try {
+          var savedTheme = localStorage.getItem('fm_theme');
+          if (savedTheme === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-editorial-bg text-editorial-ink font-body antialiased selection:bg-editorial-accent selection:text-white min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
