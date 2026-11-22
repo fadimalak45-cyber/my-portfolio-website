@@ -13,8 +13,8 @@ export const statsData: StatItem[] = [
   },
   {
     id: "projects",
-    value: "9+",
-    numericValue: 9,
+    value: "15+",
+    numericValue: 15,
     suffix: "+",
     label: "Projects Delivered",
     sublabel: "Live & Enterprise Systems",

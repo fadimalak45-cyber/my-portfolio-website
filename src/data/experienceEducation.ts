@@ -10,7 +10,7 @@ export const experienceData: ExperienceItem[] = [
     description: "Founding and directing technical delivery at PrimeStack Agency. Leading client architecture, web applications, custom WooCommerce systems, and enterprise mobile solutions.",
     highlights: [
       "Architected PrimeStack POS featuring real-time Firebase syncing, camera/laser barcode scanning, and thermal receipt printing.",
-      "Successfully delivered 9+ commercial websites spanning e-commerce, corporate branding, non-profit, and service sectors.",
+      "Successfully delivered 15+ commercial websites spanning e-commerce, corporate branding, non-profit, and service sectors.",
       "Mentored junior developers in responsive UI practices, Git workflows, and clean code principles."
     ]
   },
