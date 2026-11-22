@@ -7,6 +7,7 @@ import zebFoodImg from '../assets/images/projects/zebfoodbank.jpg';
 import pathanProMaxImg from '../assets/images/projects/pathanpromax.jpg';
 import everyFlowMusicImg from '../assets/images/projects/everyflowmusic.jpg';
 import asRepairingImg from '../assets/images/projects/asrepairing.jpg';
+import pscoGlobalImg from '../assets/images/projects/pscoglobal.jpg';
 
 export const projectsData: ProjectItem[] = [
   {
@@ -51,13 +52,14 @@ export const projectsData: ProjectItem[] = [
   {
     id: "psco-global",
     title: "PSCO Global",
-    subtitle: "Corporate Logistics & Business Hub",
-    description: "Corporate enterprise website for an international operations group, featuring global service directories, partner trust matrices, quotation requests, and speed-optimized rendering.",
+    subtitle: "Proposed Solution Company Portal",
+    description: "Multi-sector corporate gateway for Proposed Solution Company (PSCO), orchestrating Biofloc aquaculture, Oil & Gas operations, and international commodity trading divisions.",
     category: "wordpress",
     categoryLabel: "Corporate / Web",
     tags: ["WordPress", "Corporate Architecture", "Custom Forms", "Security"],
     liveUrl: "https://pscoglobal.com/",
     featured: true,
+    imageUrl: pscoGlobalImg,
     iconName: "Building2"
   },
   {
